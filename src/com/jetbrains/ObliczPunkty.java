@@ -24,7 +24,5 @@ public class ObliczPunkty {
         System.out.printf("Różnica: "+ "%1.2f, \n", roznica = x-y);
         System.out.printf("Iloczyn: "+ "%1.2f, \n", iloczyn =x*y);
         System.out.printf("Iloraz: "+ "%1.2f, \n",iloraz = x/y);
-
-
     }
 }
