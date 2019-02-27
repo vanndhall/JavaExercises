@@ -11,15 +11,21 @@ public class PoleProstokata {
     {
         double a,b;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Porgram oblicza pole prostokąta.");
-        System.out.println("Podaj bok  A: ");
-        a = Double.parseDouble(br.readLine());
-        System.out.println("Podaj bok B: ");
-        b = Double.parseDouble(br.readLine());
 
-        System.out.print("Pole prostokąta o boku a= "+ a+ " i boku b= "+b);
-        System.out.println(" wynosi "+ Oblicz(a,b));
+      try {
+          System.out.println("Porgram oblicza pole prostokąta.");
+          System.out.println("Podaj bok  A: ");
+          a = Double.parseDouble(br.readLine());
+          System.out.println("Podaj bok B: ");
+          b = Double.parseDouble(br.readLine());
 
+          System.out.print("Pole prostokąta o boku a= " + a + " i boku b= " + b);
+          System.out.println(" wynosi " + Oblicz(a, b));
+        }
+      catch(NumberFormatException e)
+      {
+          System.out.println("Nie wczytano liczby, program się zakończy.");
+      }
 
     }
 
