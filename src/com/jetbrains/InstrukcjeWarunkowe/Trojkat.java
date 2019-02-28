@@ -10,7 +10,7 @@ public class Trojkat {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        try {
-<<<<<<< HEAD
+
         System.out.println("Program sprawdzający czy na podstawie wprowadzonych danych  powstanie trójkąt prostokątny.");
         System.out.println("Podaj bok a: ");
         a = Integer.parseInt(br.readLine());
@@ -18,15 +18,14 @@ public class Trojkat {
         b = Integer.parseInt(br.readLine());
         System.out.println("Podaj bok c: ");
         c = Integer.parseInt(br.readLine());
-=======
-            System.out.println("Program sprawdzający czy na podstawie wprowadzonych danych  powstanie trójkąt prostokątny.");
-            System.out.println("Podaj bok a: ");
-            a = Integer.parseInt(br.readLine());
-            System.out.println("Podaj bok b: ");
-            b = Integer.parseInt(br.readLine());
-            System.out.println("Podaj bok c: ");
-            c = Integer.parseInt(br.readLine());
->>>>>>> 423e74a7afe81cb53ac6353ee0ad6e3b0c87a363
+        System.out.println("Program sprawdzający czy na podstawie wprowadzonych danych  powstanie trójkąt prostokątny.");
+        System.out.println("Podaj bok a: ");
+        a = Integer.parseInt(br.readLine());
+        System.out.println("Podaj bok b: ");
+        b = Integer.parseInt(br.readLine());
+        System.out.println("Podaj bok c: ");
+        c = Integer.parseInt(br.readLine());
+
 //        }
 //         catch (NumberFormatException e) {
 //            System.out.println("Nie wczytano liczby. Program się zakończy!");
@@ -38,12 +37,9 @@ public class Trojkat {
             System.out.println("B = " + b);
             System.out.println("C = " + c);
             System.out.println("Tworzą trójką prostokątny!  :)");
-<<<<<<< HEAD
+
         } else {
-=======
-        }
-        else{
->>>>>>> 423e74a7afe81cb53ac6353ee0ad6e3b0c87a363
+
             System.out.println("Boki: ");
             System.out.println("A = " + a);
             System.out.println("B = " + b);
@@ -52,12 +48,5 @@ public class Trojkat {
         }
 
     }
-<<<<<<< HEAD
-}
-
-
-
-=======
 
 }
->>>>>>> 423e74a7afe81cb53ac6353ee0ad6e3b0c87a363
