@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a62c953-e4bb-49ed-a316-665e443e1e84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/InstrukcjeWarunkowe/PierwiastekKwadratowySwitch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="62">
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -148,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/com/jetbrains/Iteracje/Petellka.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/Iteracje/PetlaMinMaxAndArg.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java" />
       </list>
     </option>
   </component>
@@ -204,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551898839129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551980524650" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -220,13 +221,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TablicaMnozenia">
-    <configuration name="LiczbaPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jetbrains.LiczbaPi" />
+  <component name="RunManager" selected="Application.Alphabet">
+    <configuration name="Alphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Iteracje.Alphabet" />
       <module name="JavaExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jetbrains.*" />
+          <option name="PATTERN" value="com.jetbrains.Iteracje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LiczbaPi" />
       <item itemvalue="Application.ZgadnijLiczbe" />
       <item itemvalue="Application.Petellka" />
       <item itemvalue="Application.PetlaMinMaxAndArg" />
       <item itemvalue="Application.TablicaMnozenia" />
+      <item itemvalue="Application.Alphabet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alphabet" />
         <item itemvalue="Application.TablicaMnozenia" />
         <item itemvalue="Application.PetlaMinMaxAndArg" />
         <item itemvalue="Application.Petellka" />
         <item itemvalue="Application.ZgadnijLiczbe" />
-        <item itemvalue="Application.LiczbaPi" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551894916068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TablicaMnożenia - do poprawki">
+      <created>1551898915470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551898915470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -359,7 +367,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gra ZgarnijLiczbe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gra ZgarnijLiczbe" />
+    <MESSAGE value="TablicaMnożenia - do poprawki" />
+    <option name="LAST_COMMIT_MESSAGE" value="TablicaMnożenia - do poprawki" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaExercises.iml">
@@ -392,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        <state relative-caret-position="1887">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -471,6 +480,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -478,13 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
