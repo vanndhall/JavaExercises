@@ -41,7 +41,6 @@ public class Macierze {
         System.out.println("Suma wyróznionych elementów w tablicy wynosi: " + suma + ".");
         System.out.println("=========================================\n");
     }
-
     public static void DrugaMacierz() {
         System.out.println("Macierz Dwa: Tablica dwuwymiarowa 10x10 umieszcza na przekątnej liczby od 0 do 9,\n a poza przekątną liczbę 0. Dodatkowo program oblicza sumę\n elementów wyróżnionych w tablicy(znajdujących się na przekątnej)");
         int n = 10, i, j, suma;
