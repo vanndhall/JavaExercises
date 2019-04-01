@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a62c953-e4bb-49ed-a316-665e443e1e84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/FirstExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/ListsOfPeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/FirstExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="-180">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#250#258#0" expanded="true" />
@@ -40,10 +41,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/ListsOfPeople.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -135,12 +148,14 @@
         <option value="$PROJECT_DIR$/src/com/jetbrains/Tablice/Training.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/Tablice/Macierze.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/FirstExample.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/ListsOfPeople.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/Student.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="377" />
-    <option name="y" value="267" />
+    <option name="y" value="7" />
     <option name="width" value="697" />
     <option name="height" value="728" />
   </component>
@@ -168,6 +183,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaExercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
+              <item name="ListsExercises" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554147617616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554149890810" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
@@ -193,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstExample">
+  <component name="RunManager" selected="Application.ListsOfPeople">
     <configuration name="Alphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jetbrains.Iteracje.Alphabet" />
       <module name="JavaExercises" />
@@ -220,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Macierze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Tablice.Macierze" />
+    <configuration name="ListsOfPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jetbrains.ListsExercises.ListsOfPeople" />
       <module name="JavaExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jetbrains.Tablice.*" />
+          <option name="PATTERN" value="com.jetbrains.ListsExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TablicaMnozenia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Iteracje.TablicaMnozenia" />
+    <configuration name="Macierze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Tablice.Macierze" />
       <module name="JavaExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jetbrains.Iteracje.*" />
+          <option name="PATTERN" value="com.jetbrains.Tablice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TablicaMnozenia" />
       <item itemvalue="Application.Alphabet" />
       <item itemvalue="Application.Training" />
       <item itemvalue="Application.Macierze" />
       <item itemvalue="Application.FirstExample" />
+      <item itemvalue="Application.ListsOfPeople" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListsOfPeople" />
         <item itemvalue="Application.FirstExample" />
         <item itemvalue="Application.Macierze" />
         <item itemvalue="Application.Training" />
         <item itemvalue="Application.Alphabet" />
-        <item itemvalue="Application.TablicaMnozenia" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551985925239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FirstExample">
+      <created>1554147677656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554147677656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,7 +368,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38625205" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38625205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +393,8 @@
     <MESSAGE value="Alphabet" />
     <MESSAGE value="PierwszaMacierz" />
     <MESSAGE value="DrugaMacierz" />
-    <option name="LAST_COMMIT_MESSAGE" value="DrugaMacierz" />
+    <MESSAGE value="FirstExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstExample" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaExercises.iml">
@@ -514,12 +544,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/FirstExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="-180">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#250#258#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/ListsOfPeople.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/ListsExercises/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
