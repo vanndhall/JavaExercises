@@ -1,25 +1,63 @@
 package com.jetbrains.ListsExercises;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListsOfPeople {
-    public static void main(String[] args) {
-        List myStudentsList = new ArrayList();
 
-        Student student1 = new Student("Szymon","Kowalski","przyklad1@gmail.om",24,803023443);
-        Student student2 = new Student("Marcin","Nowak","przyklad2@gmail.om",30,803023444);
-        Student student3 = new Student("Janina","Korcz","przyklad3@gmail.om",54,803023445);
+    public static List myStudentsList = new ArrayList();
 
-        myStudentsList.add(student1);
-        myStudentsList.add(student2);
-        myStudentsList.add(student3);
 
+    public static void main(String[] args) throws IOException {
+
+
+
+        myStudentsList.add(writeData());
+        readDataFromList();
+
+    }
+
+    public static Object writeData() throws IOException {
+        String name,surname,email;
+        int age,phone;
+
+
+
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Podaj swoje Imię: " );
+        name = bufferedReader.readLine();
+
+
+        System.out.println("Podaj swoje Nazwisko: " );
+        surname = bufferedReader.readLine();
+
+
+        System.out.println("Podaj swój Email: " );
+        email = bufferedReader.readLine();
+
+
+        System.out.println("Podaj swoj wiek: " );
+        age = Integer.parseInt(bufferedReader.readLine());
+
+
+
+        System.out.println("Podaj swoj numer komórkowy: " );
+        phone = Integer.parseInt(bufferedReader.readLine());
+
+        Student student = new Student(name,surname,email,age,phone);
+
+        return student.toString();
+
+    }
+
+    public static void readDataFromList(){
         for(Object students : myStudentsList){
-            System.out.println("Moje dane:"+ students.toString());
+            System.out.println("Moje dane: "+ students.toString());
 
         }
-
-
     }
 }
