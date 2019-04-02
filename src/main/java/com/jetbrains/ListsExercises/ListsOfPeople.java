@@ -1,5 +1,7 @@
 package com.jetbrains.ListsExercises;
 
+import main.java.com.jetbrains.ListsExercises.Student;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,14 +17,13 @@ public class ListsOfPeople {
 
 
 
-        myStudentsList.add(writeData());
+
+       // myStudentsList.add(writeData());
         readDataFromList();
 
     }
 
-    public static Object writeData() throws IOException {
-        String name,surname,email;
-        int age,phone;
+    public static Object writeData(String name, String surname, String email, int age, int phone) throws IOException {
 
 
 

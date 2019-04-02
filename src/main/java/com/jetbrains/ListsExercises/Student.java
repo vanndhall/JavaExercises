@@ -1,6 +1,6 @@
-package com.jetbrains.ListsExercises;
+package main.java.com.jetbrains.ListsExercises;
 
-import com.sun.xml.internal.bind.v2.runtime.RuntimeUtil;
+//import com.sun.xml.internal.bind.v2.runtime.RuntimeUtil;
 
 public class Student {
 
