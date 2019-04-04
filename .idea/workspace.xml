@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a62c953-e4bb-49ed-a316-665e443e1e84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core___assertj_version_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jetbrains/ListsExercises/ListsOfPeopleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/InstrukcjeWarunkowe/PierwiastekKwadratowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/InstrukcjeWarunkowe/PierwiastekKwadratowy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/InstrukcjeWarunkowe/PierwiastekKwadratowySwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/InstrukcjeWarunkowe/PierwiastekKwadratowySwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/InstrukcjeWarunkowe/Trojkat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/InstrukcjeWarunkowe/Trojkat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/InstrukcjeWarunkowe/ZgadnijLiczbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/InstrukcjeWarunkowe/ZgadnijLiczbe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Iteracje/Alphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Iteracje/Alphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Iteracje/PetlaMinMaxAndArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Iteracje/PetlaMinMaxAndArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Iteracje/TablicaMnozenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Iteracje/TablicaMnozenia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Kula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Kula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/LiczbaPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/LiczbaPi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/FirstExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/ListsOfPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/ListsOfPeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/ListsExercises/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/ObliczPunkty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/ObliczPunkty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/PoleProstokata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/PoleProstokata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Tablice/Macierze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Tablice/Macierze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/Tablice/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/Tablice/Training.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,23 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/ListsOfPeople.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="36">
+              <caret line="55" column="107" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#250#258#0" expanded="true" />
+                <element signature="method#shouldGetELementFromJavaList#0;class#FirstExample#0" />
+                <element signature="method#shouldlAddNullToList#0;class#FirstExample#0" />
+                <element signature="method#shouldAddElementAtSpecificIndex#0;class#FirstExample#0" />
+                <element signature="method#shouldInsertAllElementsFromOneListIntoAnother#0;class#FirstExample#0" />
               </folding>
             </state>
           </provider>
@@ -200,6 +172,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/ListsOfPeople.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jetbrains/ListsExercises/ListsOfPeopleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java" />
       </list>
     </option>
   </component>
@@ -211,10 +184,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="533" />
-    <option name="y" value="50" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
-    <option name="height" value="728" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,7 +266,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554238814782" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554413386086" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -323,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListsOfPeopleTest.shouldReadData">
+  <component name="RunManager" selected="Application.FirstExample">
     <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jetbrains.ListsExercises.FirstExample" />
       <module name="JavaExercises" />
@@ -401,9 +373,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstExample" />
         <item itemvalue="JUnit.ListsOfPeopleTest.shouldReadData" />
         <item itemvalue="Application.ListsOfPeople" />
-        <item itemvalue="Application.FirstExample" />
         <item itemvalue="Application.Macierze" />
         <item itemvalue="Application.Training" />
       </list>
@@ -476,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554236571028</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ListOfPeople() Testing using shouldListsOfPeople()">
+      <created>1554238899502</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554238899502</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -491,7 +470,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,7 +480,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2913257" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.56792146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,7 +508,8 @@
     <MESSAGE value="FirstExample" />
     <MESSAGE value="ListOfPeople" />
     <MESSAGE value="ListOfPeople with readData() and writeData()" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListOfPeople with readData() and writeData()" />
+    <MESSAGE value="ListOfPeople() Testing using shouldListsOfPeople()" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListOfPeople() Testing using shouldListsOfPeople()" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaExercises.iml">
@@ -660,17 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/Kula.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -753,8 +722,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/ListsOfPeople.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jetbrains/ListsExercises/FirstExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="55" column="107" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shouldGetELementFromJavaList#0;class#FirstExample#0" />
+            <element signature="method#shouldlAddNullToList#0;class#FirstExample#0" />
+            <element signature="method#shouldAddElementAtSpecificIndex#0;class#FirstExample#0" />
+            <element signature="method#shouldInsertAllElementsFromOneListIntoAnother#0;class#FirstExample#0" />
+          </folding>
         </state>
       </provider>
     </entry>
