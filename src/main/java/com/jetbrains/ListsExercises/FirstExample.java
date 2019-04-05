@@ -1,8 +1,11 @@
 package com.jetbrains.ListsExercises;
 
+import org.omg.CORBA.OBJECT_NOT_EXIST;
 import sun.rmi.log.LogInputStream;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,17 +14,65 @@ public class FirstExample {
 
 //        System.out.println("_____shouldAddNullToList()_____");
 //        shouldAddNullToList();
+
 //        System.out.println("_____shouldAddElementAtSpecificIndex()_____");
 //        shouldAddElementAtSpecificIndex();
+
 //        System.out.println("_____shouldInsertAllElementsFromOneListIntoAnother()_____");
 //        shouldInsertAllElementsFromOneListIntoAnother();
-//            System.out.println("_____shouldInsertAllElementsFromOneListIntoAnother()_____");
-//            shouldGetELementFromJavaList();
-        System.out.println("_____shouldFindElementInList()_____");
-        shouldFindElementInList();
+
+//        System.out.println("_____shouldInsertAllElementsFromOneListIntoAnother()_____");
+//        shouldGetELementFromJavaList();
+
+//        System.out.println("_____shouldFindElementInList()_____");
+//        shouldFindElementInList();
+
+//          System.out.println("_____shouldConvertListToArray()_____");
+//          shouldConvertListToArray();
 
 
     }
+
+    public static void shouldConvertListToArray(){
+        List myList = new ArrayList();
+        myList.add("Index 0");
+        myList.add("Index 1");
+        myList.add("Index 2");
+
+        Object[] tablica = myList.toArray();
+        Object[] tablica2 = myList.toArray();
+
+
+
+
+
+        System.out.println("_____lista_____");
+        for(Object x : myList){
+            System.out.println(x);
+        }
+        System.out.println("____tablica_____");
+
+        for(Object x : tablica){
+            System.out.println("["+x+"]");
+        }
+        //String tablica2[] = new String[10];
+
+        List listaPoTablicy = Arrays.asList(tablica2);
+
+        System.out.println("Lista po konwersji z tablicy ");
+        for(Object x: listaPoTablicy){
+            System.out.println(x);
+        }
+        System.out.println("Po dodaniu kolejnego wiersza do Listy");
+        listaPoTablicy.add(1,"Dodałem kolejny wiersz do indeksu 1");
+
+        for(Object x: listaPoTablicy){
+            System.out.println(x);
+        }
+
+    }
+
+
     public static void shouldFindElementInList(){
         List list1 = new ArrayList();
         String element0 ="List 1 index 0";
@@ -55,6 +106,11 @@ public class FirstExample {
 
         boolean containsElement = list1.contains("List 1 index 2"); //Sprawdzanie czy lista zawiera element
         System.out.println("\nFind if List have element using value: "+containsElement);
+
+        boolean containsElement2 = list1.contains(null); //Sprawdzanie czy lista zawiera element null
+        System.out.println("\nFind if List have element using value null: "+containsElement2);
+
+
 
 
 
