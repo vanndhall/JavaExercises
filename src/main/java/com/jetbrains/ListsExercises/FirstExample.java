@@ -1,13 +1,6 @@
 package com.jetbrains.ListsExercises;
 
-import org.omg.CORBA.OBJECT_NOT_EXIST;
-import sun.rmi.log.LogInputStream;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class FirstExample {
     public static void main(String[] args) { // snippet psvm
@@ -27,10 +20,13 @@ public class FirstExample {
 //        System.out.println("_____shouldFindElementInList()_____");
 //        shouldFindElementInList();
 
-//          System.out.println("_____shouldConvertListToArray()_____");
+//
 //          shouldConvertListToArray();
 
-
+//         System.out.println("_____shouldSortList()_____");
+//         shouldSortListOfComparableObject();
+        System.out.println("_____shouldSortUsingComparator()_____");
+        shouldSortUsingComparator();
     }
 
     public static void shouldConvertListToArray(){
@@ -40,7 +36,10 @@ public class FirstExample {
         myList.add("Index 2");
 
         Object[] tablica = myList.toArray();
+        Object[] tablica1 = myList.toArray();
         Object[] tablica2 = myList.toArray();
+        Object[] tablica3 = myList.toArray();
+
 
 
 
@@ -308,5 +307,51 @@ public class FirstExample {
 //        System.out.println("Obiekt z 0 indeksu listy  "+firstObject);
 
         }
+
+    public static void shouldSortListOfComparableObject(){
+        List sorting = new ArrayList();
+        sorting.add("c");
+        sorting.add("b");
+        sorting.add("a");
+        System.out.println("Przed sortowaniem: ");
+        for(Object x: sorting){
+            System.out.println(x);
+        }
+        System.out.println("Po sortowaniu: ");
+        Collections.sort(sorting);
+        for(Object x:sorting){
+            System.out.println(x);
+        }
+
+
+    }
+
+    public static void shouldSortUsingComparator(){
+        List<Car> carList = new ArrayList<Car>();
+        carList.add(new Car("Volvo 40","XYZ 2001854",5));
+        carList.add(new Car("Honda Civic","XYZ 252349",4));
+        carList.add(new Car("BMW","XYZ 2001854",3));
+		System.out.println("Przed sortowaniem: ");
+        for(Car car : carList){
+            System.out.println(car.toString());
+        }
+
+
+        Comparator<Car> carBrandComparator = new Comparator<Car>(){
+            @Override
+            public int compare(Car car1, Car car2){
+                return car1.brand.compareTo(car2.brand);
+
+            }
+        };
+        Collections.sort(carList,carBrandComparator);
+		System.out.println("PO sortowaniu: ");
+
+		for(Car car : carList){
+			System.out.println(car.toString());
+		}
+
+    }
+
     }
 
