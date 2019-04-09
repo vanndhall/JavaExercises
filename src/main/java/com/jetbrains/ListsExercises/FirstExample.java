@@ -25,8 +25,12 @@ public class FirstExample {
 
 //         System.out.println("_____shouldSortList()_____");
 //         shouldSortListOfComparableObject();
-        System.out.println("_____shouldSortUsingComparator()_____");
-        shouldSortUsingComparator();
+
+//        System.out.println("_____shouldSortUsingComparator()_____");
+//        shouldSortUsingComparator();
+
+		System.out.println("_____shouldIterateList()_____");
+		shouldIterateList();
     }
 
     public static void shouldConvertListToArray(){
@@ -352,6 +356,24 @@ public class FirstExample {
 		}
 
     }
+
+    public static void shouldIterateList(){
+    	List iterateList = new ArrayList();
+
+    	iterateList.add("first");
+    	iterateList.add("second");
+    	iterateList.add("third");
+
+    	Iterator iterator = iterateList.iterator();
+    	while(iterator.hasNext()){
+    		Object next = iterator.next();
+			System.out.println(next);
+		}
+
+		for (Object o : iterateList) {  //sniped  "iter"
+
+		}
+	}
 
     }
 
