@@ -1,5 +1,5 @@
 package com.jetbrains.ListsExercises;
-
+import com.jetbrains.ListsExercises.Student;
 import java.util.*;
 
 public class FirstExample {
@@ -29,8 +29,11 @@ public class FirstExample {
 //        System.out.println("_____shouldSortUsingComparator()_____");
 //        shouldSortUsingComparator();
 
-		System.out.println("_____shouldIterateList()_____");
-		shouldIterateList();
+//		System.out.println("_____shouldIterateList()_____");
+//		shouldIterateList();
+
+		System.out.println("_____shouldSummaryThisBlockOfLists()_____");
+		shouldSummaryThisBlockOfLists();
     }
 
     public static void shouldConvertListToArray(){
@@ -370,8 +373,32 @@ public class FirstExample {
 			System.out.println(next);
 		}
 
-		for (Object o : iterateList) {  //sniped  "iter"
+		for (Object o : iterateList) {  //snipped  "iter"
 
+		}
+
+		List lista = new ArrayList();
+		lista.add("Szymon1");
+		lista.add("Szymon2");
+		lista.add("Szymon3");
+
+		Object[] tablica2 = lista.toArray();
+
+		int rozmiar = tablica2.length;
+
+		System.out.println(rozmiar);
+	}
+
+	public static void shouldSummaryThisBlockOfLists(){
+    	Student student = new Student("Szymon","Mantey","vanndhall@gmail.com",26,781032323);
+    	List<Student> studentlista = new ArrayList<Student>();
+    	studentlista.size();
+    	studentlista.add((new Student("Pawel","Nowak","lolo@wp.pl",32,234234234)));
+    	studentlista.add((new Student("Pawel","Nowak","lolo@wp.pl",32,234234234)));
+    	studentlista.add((new Student("Pawel","Nowak","lolo@wp.pl",32,234234234)));
+
+    	for(Object x : studentlista){
+			System.out.println(x);
 		}
 	}
 

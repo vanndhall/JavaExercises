@@ -1,6 +1,6 @@
 package com.jetbrains.ListsExercises;
 
-import main.java.com.jetbrains.ListsExercises.Student;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;

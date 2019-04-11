@@ -1,4 +1,4 @@
-package main.java.com.jetbrains.ListsExercises;
+package com.jetbrains.ListsExercises;
 
 //import com.sun.xml.internal.bind.v2.runtime.RuntimeUtil;
 
